@@ -14,7 +14,7 @@
     "config:ro"
   ],
   "environment": {
-     "PAI_CONFIG_FILE": "/data/options.json"
+     "PAI_CONFIG_FILE": "/data/options_new.json"
   },
   "ports": {
       "10000/tcp": 10000
