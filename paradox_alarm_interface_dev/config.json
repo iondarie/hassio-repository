@@ -23,13 +23,6 @@
     "10000/tcp": "For IP connection from Babyware"
   },
   "options": {
-    "LOGGING_FILE": null,
-    "LOGGING_LEVEL_CONSOLE": 20,
-    "LOGGING_LEVEL_FILE": 40,
-    "LOGGING_DUMP_PACKETS": false,
-    "LOGGING_DUMP_MESSAGES": false,
-    "LOGGING_DUMP_STATUS": false,
-    "LOGGING_DUMP_EVENTS": false,
     "CONNECTION_TYPE": "Serial",
     "SERIAL_PORT": "/dev/ttyUSB0",
     "SERIAL_BAUD": 9600,
@@ -56,13 +49,6 @@
     "LABEL_ENCODING": "utf-8"
   },
   "schema": {
-    "LOGGING_FILE": "str?",
-    "LOGGING_LEVEL_CONSOLE": "list(0|10|20|30|40|50)",
-    "LOGGING_LEVEL_FILE": "list(0|10|20|30|40|50)",
-    "LOGGING_DUMP_PACKETS": "bool?",
-    "LOGGING_DUMP_MESSAGES": "bool?",
-    "LOGGING_DUMP_STATUS": "bool?",
-    "LOGGING_DUMP_EVENTS": "bool?",
     "CONNECTION_TYPE": "list(Serial|IP)",
     "SERIAL_PORT": "device?",
     "SERIAL_BAUD": "int(1200,)?",
